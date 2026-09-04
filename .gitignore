@@ -1,0 +1,6 @@
+.DS_Store
+Thumbs.db
+*.log
+
+# Local-only: documents the domain/account security posture. Not for a public repo.
+PRIVACY.md
