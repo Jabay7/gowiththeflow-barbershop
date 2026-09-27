@@ -45,9 +45,12 @@ Profile. Booking links go to the shop's Booksy page. Instagram is @gowiththeflow
 
 ## Photos
 
+`theshop.jpg` is the real shop sign. The hero is free-license stock from Unsplash (photo
+EW_rqoSdDes); no attribution required. Swap in real shop photos when you have them.
+
 The photos in `assets/img/` are stock placeholders. Swap them for real shop photos with the
-same filenames and the site updates with no code change. Portrait orientation works best for
-`hero.jpg`, `contact.jpg`, `about-1.jpg` and `service-beard-grooming.jpg`.
+same filenames and the site updates with no code change. `hero.jpg` should be landscape (about 3:2); `about-1.jpg` and `service-beard-grooming.jpg`
+work best in portrait.
 
 ## Privacy
 
