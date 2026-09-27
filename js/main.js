@@ -11,6 +11,11 @@
        var FORM_ENDPOINT = 'https://formspree.io/f/xxxxxxxx';
      Leave it empty and the form politely says it is not connected yet
      instead of pretending to send.
+
+     IMPORTANT: index.html sets a Content-Security-Policy with
+     `connect-src 'self'`. When you paste an endpoint here you must also add
+     its origin to that directive (e.g. `connect-src 'self' https://formspree.io`)
+     or the browser will block the request and the form will fail silently.
      ------------------------------------------------------------------ */
   var FORM_ENDPOINT = '';
 
