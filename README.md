@@ -46,7 +46,8 @@ Profile. Booking is by phone or walk-in (no booking app, by request). Instagram 
 
 ## Photos
 
-`theshop.jpg` is the real shop sign. The hero is free-license stock from Unsplash (photo
+`logo.png` is the official logo (transparent, from the vector wordmark) and `theshop.jpg` is
+the real shop sign. The hero is free-license stock from Unsplash (photo
 EW_rqoSdDes); no attribution required. Swap in real shop photos when you have them.
 
 The photos in `assets/img/` are stock placeholders. Swap them for real shop photos with the
