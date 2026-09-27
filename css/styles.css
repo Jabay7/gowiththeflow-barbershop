@@ -157,6 +157,9 @@ h2.h3 { font-size: clamp(1.7rem, 3vw, 2.2rem); }
 .navbar { display: flex; align-items: center; gap: 1.5rem; min-height: 4.5rem; }
 
 .brand { display: flex; align-items: center; gap: .8rem; text-decoration: none; color: var(--cream); }
+.brand-logo { height: 64px; width: auto; border-radius: 8px; display: block; box-shadow: 0 0 0 1px rgba(255,255,255,.08); }
+.brand-footer .brand-logo { height: 84px; }
+@media (max-width: 900px) { .brand-logo { height: 52px; } }
 .pole {
   width: 12px; height: 40px; border-radius: 6px; flex: none;
   background: repeating-linear-gradient(-55deg, var(--red) 0 7px, var(--white) 7px 14px, var(--navy) 14px 21px);
