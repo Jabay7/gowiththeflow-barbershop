@@ -4,40 +4,71 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; object-src 'none'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; font-src 'self'; script-src 'self'; connect-src 'self'; form-action 'self'; frame-src 'none'; upgrade-insecure-requests" />
-<title>Go With The Flow Barbershop — Classic Cuts &amp; Grooming</title>
-<meta name="description" content="Classic men's grooming with style and community spirit. Timeless cuts, beard grooming, hot lather shaves and modern styling.">
-<meta name="theme-color" content="#171511">
-<!-- Draft: keeps the placeholder content out of Google while you fill in the real
-     details. DELETE this line when the site goes live for real. -->
-<meta name="robots" content="noindex, nofollow">
+
+<title>Go With The Flow Barbershop — Oceanside, CA</title>
+<meta name="description" content="Go With The Flow Barbershop in downtown Oceanside, CA. Fades, tapers, lineups, beard trims and hot towel shaves. 4.6 stars on Google. Walk-ins welcome, free parking. Book online or call (760) 575-1268.">
+<meta name="theme-color" content="#0e0e10">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="canonical" href="https://gowiththeflowbarbershop.com/">
 
-<!-- Fonts are self-hosted in assets/fonts — no request ever leaves for Google. -->
+<!-- Fonts are self-hosted in assets/fonts. No request ever leaves for Google. -->
 <link rel="preload" href="assets/fonts/rubik-900-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="assets/fonts/hind-400-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="assets/fonts/fonts.css">
 <link rel="stylesheet" href="css/styles.css">
 
-<!-- Open Graph. Update the URL + image once you have your own photo. -->
-<meta property="og:title" content="Go With The Flow Barbershop">
-<meta property="og:description" content="Classic men's grooming with style and community spirit.">
+<meta property="og:title" content="Go With The Flow Barbershop — Oceanside, CA">
+<meta property="og:description" content="Fades, tapers, lineups, beard work and hot towel shaves in downtown Oceanside. Walk-ins welcome. Book online.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://gowiththeflowbarbershop.com/">
 <meta property="og:image" content="https://gowiththeflowbarbershop.com/assets/img/hero.jpg">
+<meta name="twitter:card" content="summary_large_image">
+
+<!-- Structured data so Google shows hours, phone and rating with the listing.
+     This is a data block, not executable script, so the CSP does not block it. -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HairSalon",
+  "name": "Go With The Flow Barbershop",
+  "image": "https://gowiththeflowbarbershop.com/assets/img/hero.jpg",
+  "url": "https://gowiththeflowbarbershop.com/",
+  "telephone": "+1-760-575-1268",
+  "priceRange": "$$",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "713 Mission Ave Ste D",
+    "addressLocality": "Oceanside",
+    "addressRegion": "CA",
+    "postalCode": "92054",
+    "addressCountry": "US"
+  },
+  "geo": { "@type": "GeoCoordinates", "latitude": 33.1968261, "longitude": -117.3772122 },
+  "sameAs": [
+    "https://www.instagram.com/gowiththeflowbarbershop/",
+    "https://booksy.com/en-us/1647289_go-with-the-flow_barber-shop_103753_oceanside"
+  ],
+  "openingHoursSpecification": [
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday"], "opens": "05:00", "closes": "23:00" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": "Friday", "opens": "05:00", "closes": "22:00" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "06:00", "closes": "22:00" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": "Sunday", "opens": "06:00", "closes": "23:45" }
+  ]
+}
+</script>
 </head>
 <body>
-
 <a class="skip-link" href="#main">Skip to content</a>
 
-<header class="site-header">
-  <nav class="navbar" aria-label="Primary">
-    <a class="brand" href="#top">
-      <svg class="brand-mark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-        <circle cx="6" cy="18" r="3"/><circle cx="18" cy="18" r="3"/>
-        <line x1="8.1" y1="15.9" x2="19" y2="4"/><line x1="15.9" y1="15.9" x2="5" y2="4"/>
-      </svg>
-      <span class="brand-name">Go With The Flow</span>
+<!-- ============ HEADER ============ -->
+<header class="site-header" id="top">
+  <nav class="navbar wrap" aria-label="Primary">
+    <a class="brand" href="#top" aria-label="Go With The Flow Barbershop, home">
+      <span class="pole" aria-hidden="true"></span>
+      <span class="brand-text">
+        <span class="brand-name">Go With The Flow</span>
+        <span class="brand-sub">Barbershop &middot; Oceanside</span>
+      </span>
     </a>
 
     <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu">
@@ -45,204 +76,324 @@
       <span class="sr-only">Menu</span>
     </button>
 
-    <ul class="nav-menu" id="nav-menu">
-      <li><a href="#services">Services</a></li>
-      <li><a href="#booking">Booking</a></li>
-      <li><a href="#testimonials">Testimonials</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-
-    <a class="nav-phone" href="tel:+12065550100">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-        <path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.2a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/>
-      </svg>
-      <span>206-555-0100</span>
-    </a>
+    <div class="nav-menu" id="nav-menu">
+      <ul class="nav-links">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">The Shop</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#hours">Hours</a></li>
+        <li><a href="#visit">Visit</a></li>
+      </ul>
+      <div class="nav-actions">
+        <a class="nav-phone" href="tel:+17605751268">(760) 575-1268</a>
+        <a class="btn btn-red btn-sm" href="https://booksy.com/en-us/1647289_go-with-the-flow_barber-shop_103753_oceanside" target="_blank" rel="noopener">Book online</a>
+      </div>
+    </div>
   </nav>
 </header>
 
 <main id="main">
 
-  <!-- ============ HERO ============ -->
-  <section class="hero" id="top">
-    <img class="hero-img" src="assets/img/hero.jpg" alt="" width="1920" height="1080" fetchpriority="high">
-    <div class="hero-scrim" aria-hidden="true"></div>
-    <div class="hero-inner wrap">
-      <div class="hero-left">
-        <h1>Classic men&rsquo;s grooming with style and community spirit</h1>
-        <a class="btn btn-light" href="#booking">Book Now</a>
-      </div>
-      <div class="hero-right">
-        <p>Experience expert barbering in a relaxed, welcoming environment where tradition meets
-        modern style. Our barbershop offers timeless cuts and grooming services designed to refresh
-        your look and your day. Join our community and enjoy a space crafted for comfort and confidence.</p>
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <img class="hero-img" src="assets/img/hero.jpg" alt="" width="1920" height="2880" fetchpriority="high">
+  <div class="hero-scrim" aria-hidden="true"></div>
+
+  <div class="hero-inner wrap">
+    <p class="eyebrow"><span class="stripe" aria-hidden="true"></span>Downtown Oceanside &middot; Mission Ave</p>
+    <h1>Sharp cuts.<br>Good vibes.<br><span class="accent">Every time.</span></h1>
+    <p class="hero-lead">Fades, tapers, lineups, beard work and hot towel shaves from barbers who
+      take their time and get it right. Walk-ins welcome, free parking, open seven days.</p>
+    <div class="hero-actions">
+      <a class="btn btn-red btn-lg" href="https://booksy.com/en-us/1647289_go-with-the-flow_barber-shop_103753_oceanside" target="_blank" rel="noopener">Book online</a>
+      <a class="btn btn-ghost btn-lg" href="tel:+17605751268">Call (760) 575-1268</a>
+    </div>
+  </div>
+
+  <ul class="trust wrap" aria-label="Highlights">
+    <li>
+      <span class="trust-big">4.6<span class="star" aria-hidden="true">&#9733;</span></span>
+      <span class="trust-small">42 Google reviews</span>
+    </li>
+    <li>
+      <span class="trust-big">Walk-ins</span>
+      <span class="trust-small">Always welcome</span>
+    </li>
+    <li>
+      <span class="trust-big">Free parking</span>
+      <span class="trust-small">Garage, lot &amp; street</span>
+    </li>
+    <li>
+      <span class="trust-big">Open 7 days</span>
+      <span class="trust-small" data-open-status>Early mornings to late nights</span>
+    </li>
+  </ul>
+</section>
+
+<!-- ============ TICKER ============ -->
+<div class="ticker" aria-hidden="true">
+  <div class="ticker-track">
+    <span>Skin fades</span><span>Tapers</span><span>Lineups</span><span>Beard trims</span><span>Hot towel shaves</span><span>Kids&rsquo; cuts</span><span>Hair designs</span><span>Walk-ins welcome</span>
+    <span>Skin fades</span><span>Tapers</span><span>Lineups</span><span>Beard trims</span><span>Hot towel shaves</span><span>Kids&rsquo; cuts</span><span>Hair designs</span><span>Walk-ins welcome</span>
+  </div>
+</div>
+
+<!-- ============ SERVICES ============ -->
+<section class="section section-light" id="services">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <p class="eyebrow"><span class="stripe" aria-hidden="true"></span>Services</p>
+      <h2>Everything a clean look needs</h2>
+      <p class="lead">Current prices and open chairs are on Booksy. Walk in, or lock in a time
+        with your barber in a couple of taps.</p>
+    </div>
+
+    <ul class="services">
+      <li class="service reveal">
+        <svg class="service-icon" viewBox="0 0 48 48" aria-hidden="true"><path d="M8 40 30 18M8 8l22 22M30 18l10-10M30 30l10 10" /><circle cx="9" cy="9" r="4"/><circle cx="9" cy="39" r="4"/></svg>
+        <h3>Haircut &amp; Fade</h3>
+        <p>Skin fades, tapers, drop fades, scissor cuts. Blended clean and finished sharp.</p>
+      </li>
+      <li class="service reveal">
+        <svg class="service-icon" viewBox="0 0 48 48" aria-hidden="true"><path d="M12 6h24M14 6v18a10 10 0 0 0 20 0V6M24 34v8M16 42h16" /></svg>
+        <h3>Beard Trim &amp; Shape-up</h3>
+        <p>Shaped, faded into the cut and edged with a razor. Hot towel finish.</p>
+      </li>
+      <li class="service reveal">
+        <svg class="service-icon" viewBox="0 0 48 48" aria-hidden="true"><path d="M6 24h36M10 16h28M10 32h28" /></svg>
+        <h3>Lineup / Edge-up</h3>
+        <p>Crisp hairline and edges between full cuts. In and out fast.</p>
+      </li>
+      <li class="service reveal">
+        <svg class="service-icon" viewBox="0 0 48 48" aria-hidden="true"><path d="M8 34 34 8l6 6-22 22-10 2zM28 14l6 6" /></svg>
+        <h3>Hot Towel Shave</h3>
+        <p>Straight razor, hot lather and a cold towel to close it out. The classic.</p>
+      </li>
+      <li class="service reveal">
+        <svg class="service-icon" viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="16" r="8"/><path d="M8 42a16 16 0 0 1 32 0" /></svg>
+        <h3>Kids&rsquo; Cuts</h3>
+        <p>Patient barbers, a family-friendly shop, and a cut they will want to show off.</p>
+      </li>
+      <li class="service reveal">
+        <svg class="service-icon" viewBox="0 0 48 48" aria-hidden="true"><path d="M6 30c8-14 28-14 36 0M12 22l4 8M36 22l-4 8M24 18v14" /></svg>
+        <h3>Hair Designs</h3>
+        <p>Parts, lines and custom designs cut clean into the fade.</p>
+      </li>
+    </ul>
+
+    <div class="services-cta reveal">
+      <a class="btn btn-dark" href="https://booksy.com/en-us/1647289_go-with-the-flow_barber-shop_103753_oceanside" target="_blank" rel="noopener">See prices &amp; book on Booksy</a>
+      <span class="services-note">Or just walk in. We will get you in the chair.</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ABOUT / WHY ============ -->
+<section class="section section-dark" id="about">
+  <div class="wrap about">
+    <div class="about-media reveal">
+      <img src="assets/img/contact.jpg" alt="Fresh fade with a razor-cut design" width="1000" height="1333" loading="lazy">
+      <div class="about-badge" aria-hidden="true">
+        <span>Est.</span><strong>Oceanside</strong>
       </div>
     </div>
-  </section>
 
-  <!-- ============ SERVICES ============ -->
-  <section class="section" id="services">
-    <div class="wrap">
-      <div class="section-intro reveal">
-        <h2>Experience the best classic men cuts</h2>
-        <p class="lead">This section highlights our professional grooming services, emphasizing quality and community.</p>
+    <div class="about-copy reveal">
+      <p class="eyebrow"><span class="stripe" aria-hidden="true"></span>The shop</p>
+      <h2>A neighborhood barbershop that treats you like family</h2>
+      <p class="lead">Go With The Flow is a Latino-owned shop on Mission Ave run by Flo, a barber
+        who has spent years building a loyal following one chair at a time. Military welcome,
+        kids welcome, first-timers welcome.</p>
+
+      <ol class="why">
+        <li>
+          <strong>Barbers who listen.</strong>
+          <span>Tell us what you want, show us a photo, or say &ldquo;same as last time.&rdquo; You leave with the cut you came for.</span>
+        </li>
+        <li>
+          <strong>Clean, relaxed, no rush.</strong>
+          <span>A clean chair, a good conversation if you want one, and quiet if you do not.</span>
+        </li>
+        <li>
+          <strong>Easy to get to.</strong>
+          <span>Downtown Oceanside, minutes from the pier and Camp Pendleton, with free parking out front.</span>
+        </li>
+      </ol>
+
+      <div class="about-actions">
+        <a class="btn btn-red" href="https://booksy.com/en-us/1647289_go-with-the-flow_barber-shop_103753_oceanside" target="_blank" rel="noopener">Book with your barber</a>
+        <a class="link-arrow" href="https://www.instagram.com/gowiththeflowbarbershop/" target="_blank" rel="noopener">Follow @gowiththeflowbarbershop</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ GALLERY ============ -->
+<section class="section section-light gallery-section" id="gallery">
+  <div class="wrap">
+    <div class="section-head section-head-row reveal">
+      <div>
+        <p class="eyebrow"><span class="stripe" aria-hidden="true"></span>Recent work</p>
+        <h2>Fresh out of the chair</h2>
+      </div>
+      <a class="link-arrow" href="https://www.instagram.com/gowiththeflowbarbershop/" target="_blank" rel="noopener">More on Instagram</a>
+    </div>
+
+    <ul class="gallery">
+      <li class="reveal"><img src="assets/img/service-classic-cuts.jpg" alt="Inside the barbershop" width="800" height="533" loading="lazy"></li>
+      <li class="reveal"><img src="assets/img/about-2.jpg" alt="Faded cut with a geometric design" width="900" height="600" loading="lazy"></li>
+      <li class="reveal"><img src="assets/img/service-beard-grooming.jpg" alt="Clean taper and lineup" width="800" height="1200" loading="lazy"></li>
+      <li class="reveal"><img src="assets/img/service-modern-styling.jpg" alt="Barber tools on the counter" width="800" height="1200" loading="lazy"></li>
+      <li class="reveal"><img src="assets/img/about-1.jpg" alt="Sharp scissor cut" width="900" height="1350" loading="lazy"></li>
+      <li class="reveal"><img src="assets/img/service-hot-lather-shave.jpg" alt="Slicked back with a hard part" width="800" height="533" loading="lazy"></li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============ REVIEWS ============ -->
+<section class="section section-dark" id="reviews">
+  <div class="wrap">
+    <div class="reviews">
+      <div class="rating-card reveal">
+        <p class="rating-num">4.6</p>
+        <p class="rating-stars" aria-label="4.6 out of 5 stars">
+          <span aria-hidden="true">&#9733;&#9733;&#9733;&#9733;</span><span class="half" aria-hidden="true">&#9733;</span>
+        </p>
+        <p class="rating-label">42 reviews on Google</p>
+        <ul class="tags" aria-label="What reviewers mention">
+          <li>Military friendly</li>
+          <li>Welcoming</li>
+          <li>Clean space</li>
+          <li>Relaxing</li>
+        </ul>
+        <a class="btn btn-ghost btn-sm" href="https://www.google.com/maps/place/Go+with+the+Flow+barber+shop/@33.1968261,-117.3772122,17z/data=!4m6!3m5!1s0x80dc6f001bbdb9a9:0xf82bb8c48a992ee4!8m2!3d33.1968261!4d-117.3772122!16s%2Fg%2F11wc236j3g" target="_blank" rel="noopener">Read reviews on Google</a>
       </div>
 
-      <ul class="grid grid-4">
-        <li class="card reveal">
-          <img src="assets/img/service-classic-cuts.jpg" alt="Barber finishing a classic haircut" width="800" height="560" loading="lazy">
-          <h3>Classic Cuts</h3>
-          <p>This service is designed to give you a sharp, timeless look.</p>
-        </li>
-        <li class="card reveal">
-          <img src="assets/img/service-beard-grooming.jpg" alt="Beard being shaped and trimmed" width="800" height="560" loading="lazy">
-          <h3>Beard Grooming</h3>
-          <p>This service provides expert trimming for optimal style.</p>
-        </li>
-        <li class="card reveal">
-          <img src="assets/img/service-hot-lather-shave.jpg" alt="Hot lather straight razor shave" width="800" height="560" loading="lazy">
-          <h3>Hot Lather Shave</h3>
-          <p>This service is crafted to deliver ultimate relaxation and refreshment.</p>
-        </li>
-        <li class="card reveal">
-          <img src="assets/img/service-modern-styling.jpg" alt="Modern styling and finish" width="800" height="560" loading="lazy">
-          <h3>Modern Styling</h3>
-          <p>This service ensures a fresh look and complete satisfaction.</p>
-        </li>
+      <div class="review-points">
+        <p class="eyebrow reveal"><span class="stripe" aria-hidden="true"></span>What people say</p>
+        <h2 class="reveal">Why guys keep coming back</h2>
+        <ul class="points">
+          <li class="reveal">
+            <strong>Fair prices for the quality.</strong>
+            <span>Regulars call out the value. You pay for a great cut, not a fancy lobby.</span>
+          </li>
+          <li class="reveal">
+            <strong>Good vibes from the whole crew.</strong>
+            <span>The most repeated word in the reviews is &ldquo;welcoming.&rdquo; The second is &ldquo;friendly.&rdquo;</span>
+          </li>
+          <li class="reveal">
+            <strong>Consistent, cut after cut.</strong>
+            <span>Clients who have followed Flo for years say the same thing: it never disappoints.</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ HOURS + VISIT ============ -->
+<section class="section section-light" id="hours">
+  <div class="wrap visit-grid">
+    <div class="hours-card reveal">
+      <p class="eyebrow"><span class="stripe" aria-hidden="true"></span>Hours</p>
+      <h2 class="h3">Open seven days</h2>
+      <p class="open-status" data-open-status-line aria-live="polite"></p>
+      <table class="hours" data-hours>
+        <tbody>
+          <tr data-day="1"><th scope="row">Monday</th><td>5:00 am &ndash; 11:00 pm</td></tr>
+          <tr data-day="2"><th scope="row">Tuesday</th><td>5:00 am &ndash; 11:00 pm</td></tr>
+          <tr data-day="3"><th scope="row">Wednesday</th><td>5:00 am &ndash; 11:00 pm</td></tr>
+          <tr data-day="4"><th scope="row">Thursday</th><td>5:00 am &ndash; 11:00 pm</td></tr>
+          <tr data-day="5"><th scope="row">Friday</th><td>5:00 am &ndash; 10:00 pm</td></tr>
+          <tr data-day="6"><th scope="row">Saturday</th><td>6:00 am &ndash; 10:00 pm</td></tr>
+          <tr data-day="0"><th scope="row">Sunday</th><td>6:00 am &ndash; 11:45 pm</td></tr>
+        </tbody>
+      </table>
+      <p class="hours-note">Chair times vary by barber. Check Booksy for who is in today.</p>
+    </div>
+
+    <div class="visit-card reveal" id="visit">
+      <p class="eyebrow"><span class="stripe" aria-hidden="true"></span>Visit</p>
+      <h2 class="h3">Find us on Mission Ave</h2>
+      <address>
+        <a class="visit-line" href="https://www.google.com/maps/dir/?api=1&amp;destination=713+Mission+Ave+Ste+D%2C+Oceanside%2C+CA+92054" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22s7-7.6 7-12.5A7 7 0 0 0 5 9.5C5 14.4 12 22 12 22z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
+          <span>713 Mission Ave, Ste D<br>Oceanside, CA 92054</span>
+        </a>
+        <a class="visit-line" href="tel:+17605751268">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.2a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg>
+          <span>(760) 575-1268</span>
+        </a>
+        <a class="visit-line" href="https://www.instagram.com/gowiththeflowbarbershop/" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+          <span>@gowiththeflowbarbershop</span>
+        </a>
+      </address>
+
+      <ul class="perks">
+        <li>Free parking: garage, lot and street</li>
+        <li>Wheelchair accessible entrance and parking</li>
+        <li>Walk-ins accepted</li>
+        <li>Good for kids</li>
       </ul>
-    </div>
-  </section>
 
-  <!-- ============ BOOKING ============ -->
-  <section class="section section-alt" id="booking">
-    <div class="wrap">
-      <div class="section-intro reveal">
-        <h2>Relax and refresh at our barbershop</h2>
-        <p class="lead">Discover how to book your classic cuts and grooming services quickly and efficiently to secure your spot.</p>
-      </div>
-
-      <!--
-        BOOKING
-        The Porkbun original embedded a SimplyBook.me demo widget. That widget loads a
-        third-party script that sees every visitor's IP and drops its own cookies, so it is
-        deliberately left out here. Two clean options:
-          1. Keep the call / text buttons below (zero third-party code, works today).
-          2. Add a booking provider later — link OUT to it in a new tab instead of embedding,
-             so no visitor data is shared unless someone actually clicks through.
-      -->
-      <div class="booking-actions reveal">
-        <a class="btn btn-dark" href="tel:+12065550100">Call to book &mdash; 206-555-0100</a>
-        <a class="btn btn-outline" href="sms:+12065550100">Text us</a>
-      </div>
-
-      <dl class="hours reveal">
-        <div><dt>Monday &ndash; Friday</dt><dd>9:00 am &ndash; 7:00 pm</dd></div>
-        <div><dt>Saturday</dt><dd>9:00 am &ndash; 5:00 pm</dd></div>
-        <div><dt>Sunday</dt><dd>Closed</dd></div>
-      </dl>
-    </div>
-  </section>
-
-  <!-- ============ TESTIMONIALS ============ -->
-  <section class="section" id="testimonials">
-    <div class="wrap">
-      <figure class="quote reveal">
-        <blockquote>
-          <p>This is where a customer testimonial should go. Feel free to include whatever content you have.</p>
-        </blockquote>
-        <figcaption>
-          <span class="quote-name">Person 3</span>
-          <span class="quote-role">Job Title, Company Name</span>
-        </figcaption>
-      </figure>
-    </div>
-  </section>
-
-  <!-- ============ ABOUT ============ -->
-  <section class="section section-alt" id="about">
-    <div class="wrap about">
-      <div class="about-copy reveal">
-        <h2>Classic cuts and grooming for every man</h2>
-        <p class="lead">Go With The Flow Barbershop is dedicated to classic cuts and grooming services,
-        providing a welcoming community space designed for relaxation and refreshment.</p>
-        <a class="btn btn-dark" href="#contact">Get in touch</a>
-      </div>
-      <div class="about-media reveal">
-        <img src="assets/img/about-1.jpg" alt="Inside the barbershop" width="900" height="1200" loading="lazy">
-        <img src="assets/img/about-2.jpg" alt="Barber tools on the counter" width="900" height="1200" loading="lazy">
+      <div class="visit-actions">
+        <a class="btn btn-dark" href="https://www.google.com/maps/dir/?api=1&amp;destination=713+Mission+Ave+Ste+D%2C+Oceanside%2C+CA+92054" target="_blank" rel="noopener">Get directions</a>
+        <a class="btn btn-outline" href="sms:+17605751268">Text us</a>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- ============ CONTACT ============ -->
-  <section class="section" id="contact">
-    <div class="wrap contact">
-      <div class="contact-media reveal">
-        <img src="assets/img/contact.jpg" alt="Barber chair by the window" width="1000" height="1200" loading="lazy">
-      </div>
-
-      <div class="contact-form-wrap reveal">
-        <h2>Contact us</h2>
-        <p class="lead">Questions about a service, or want to book a time that is not online? Send a note.</p>
-
-        <!--
-          FORM DELIVERY — not wired up yet, on purpose.
-          Set FORM_ENDPOINT in js/main.js to a Formspree endpoint (or your own handler)
-          and the form starts working. Until then it shows a "not connected yet" notice
-          rather than silently dropping messages. See README.md.
-        -->
-        <form class="contact-form" novalidate>
-          <div class="field">
-            <label for="cf-name">Name <span aria-hidden="true">*</span></label>
-            <input id="cf-name" name="name" type="text" autocomplete="name" required>
-          </div>
-          <div class="field">
-            <label for="cf-email">Email <span aria-hidden="true">*</span></label>
-            <input id="cf-email" name="email" type="email" autocomplete="email" required>
-          </div>
-          <div class="field">
-            <label for="cf-subject">Subject</label>
-            <input id="cf-subject" name="subject" type="text">
-          </div>
-          <div class="field">
-            <label for="cf-message">Message <span aria-hidden="true">*</span></label>
-            <textarea id="cf-message" name="message" rows="5" required></textarea>
-          </div>
-
-          <!-- Honeypot: bots fill it, people never see it. Cheap spam filter, no captcha,
-               no third-party script, no data shared with anyone. -->
-          <div class="hp" aria-hidden="true">
-            <label for="cf-company">Company</label>
-            <input id="cf-company" name="company" type="text" tabindex="-1" autocomplete="off">
-          </div>
-
-          <button class="btn btn-dark" type="submit">Submit</button>
-          <p class="form-status" role="status" aria-live="polite"></p>
-        </form>
-      </div>
+<!-- ============ FINAL CTA ============ -->
+<section class="cta-band">
+  <div class="wrap cta-inner reveal">
+    <h2>Ready for a fresh one?</h2>
+    <p>Grab a time online or walk in. Either way, you are leaving sharp.</p>
+    <div class="cta-actions">
+      <a class="btn btn-red btn-lg" href="https://booksy.com/en-us/1647289_go-with-the-flow_barber-shop_103753_oceanside" target="_blank" rel="noopener">Book online</a>
+      <a class="btn btn-ghost btn-lg" href="tel:+17605751268">Call the shop</a>
     </div>
-  </section>
+  </div>
+</section>
 
 </main>
 
+<!-- ============ FOOTER ============ -->
 <footer class="site-footer">
-  <div class="wrap footer-inner">
+  <div class="wrap footer-grid">
     <div class="footer-brand">
-      <span class="brand-name">Go With The Flow Barbershop</span>
-      <p>Classic cuts, beard grooming and hot lather shaves.</p>
+      <a class="brand" href="#top" aria-label="Back to top">
+        <span class="pole" aria-hidden="true"></span>
+        <span class="brand-text">
+          <span class="brand-name">Go With The Flow</span>
+          <span class="brand-sub">Barbershop &middot; Oceanside</span>
+        </span>
+      </a>
+      <p>Cuts, beards and shaves in downtown Oceanside, California.</p>
     </div>
+
+    <nav class="footer-nav" aria-label="Footer">
+      <a href="#services">Services</a>
+      <a href="#about">The Shop</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#hours">Hours</a>
+      <a href="#visit">Visit</a>
+    </nav>
+
     <div class="footer-contact">
-      <a href="tel:+12065550100">206-555-0100</a>
-      <address>123 Main Street<br>Your City, ST 00000</address>
+      <a href="tel:+17605751268">(760) 575-1268</a>
+      <a href="https://www.google.com/maps/dir/?api=1&amp;destination=713+Mission+Ave+Ste+D%2C+Oceanside%2C+CA+92054" target="_blank" rel="noopener">713 Mission Ave Ste D, Oceanside, CA 92054</a>
+      <a href="https://www.instagram.com/gowiththeflowbarbershop/" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://booksy.com/en-us/1647289_go-with-the-flow_barber-shop_103753_oceanside" target="_blank" rel="noopener">Book on Booksy</a>
     </div>
-    <p class="footer-legal">
-      &copy; <span data-year>2026</span> Go With The Flow Barbershop.
-      This site sets no cookies and uses no analytics or trackers.
-    </p>
+  </div>
+  <div class="wrap footer-bottom">
+    <p>&copy; <span data-year>2026</span> Go With The Flow Barbershop. All rights reserved.</p>
+    <p class="footer-privacy">No cookies, no trackers, no ads. Just a barbershop website.</p>
   </div>
 </footer>
 
-<script src="js/main.js"></script>
+<script src="js/main.js" defer></script>
 </body>
 </html>
