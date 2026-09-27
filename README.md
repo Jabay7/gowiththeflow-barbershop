@@ -30,7 +30,8 @@ Hind for body, Fraunces for small accent labels. All tokens are at the top of `c
 ## Where the facts came from
 
 Address, phone, hours, rating and amenities were taken from the shop's Google Business
-Profile. Booking links go to the shop's Booksy page. Instagram is @gowiththeflowbarbershop.
+Profile. Booking is by phone or walk-in (no booking app, by request). Instagram is
+@gowiththeflowbarbershop.
 
 ## Editing common things
 
@@ -56,4 +57,4 @@ work best in portrait.
 
 No analytics, no cookies, no third-party scripts, no contact form. A strict
 Content-Security-Policy in `index.html` blocks anything that is not served from this site.
-Visitors only reach Booksy, Google Maps or Instagram if they click a link. See `PRIVACY.md`.
+Visitors only reach Google Maps or Instagram if they click a link. See `PRIVACY.md`.
