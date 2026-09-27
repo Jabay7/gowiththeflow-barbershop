@@ -431,7 +431,7 @@ address .ig-pill { justify-self: start; }
 .cta-band {
   background:
     linear-gradient(rgba(14,14,16,.88), rgba(14,14,16,.88)),
-    url("../assets/img/service-classic-cuts.jpg") center / cover no-repeat;
+    url("../assets/img/hero-shop.jpg") center / cover no-repeat;
   padding-block: clamp(4rem, 8vw, 6.5rem);
   border-top: 3px solid var(--gold);
 }
